@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CrimeAnalyzer
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {

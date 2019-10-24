@@ -1,0 +1,25 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CrimeAnalyzer/.vs/CrimeAnalyzer/v16
+/CrimeAnalyzer/CrimeAnalyzer/bin/Debug
+/CrimeAnalyzer/CrimeAnalyzer/obj/Debug
+/Document/.vs/Document/v16
+/Document/Document/bin/Debug
+/Document/Document/obj/Debug
+/Document Merger/.vs/Document Merger/v16
+/Document Merger/Document Merger/bin/Debug
+/Document Merger/Document Merger/obj/Debug
+/DocumentMerger2/.vs/DocumentMerger2/v16
+/DocumentMerger2/DocumentMerger2/bin/Debug
+/DocumentMerger2/DocumentMerger2/obj/Debug
+/Dog/.vs/Dog/v16
+/Dog/Dog/bin/Debug
+/Dog/Dog/obj/Debug
+/Pets/.vs/Pets
+/Pets/Pets/bin/Debug/netcoreapp2.1
+/Pets/Pets/obj/Debug/netcoreapp2.1
+/URLEncoder/.vs/URLEncoder/v16
+/URLEncoder/URLEncoder/bin/Debug
+/URLEncoder/URLEncoder/obj/Debug

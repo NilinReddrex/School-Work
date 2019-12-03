@@ -24,7 +24,7 @@ namespace MusicPlaylistAnalyzer
                 List<PlaylistInformation> playlistInformationList = ParsePlaylistInformationList(readLines, headerIndexes);
                 List<string> outputContent = BuildOutPutReport(playlistInformationList);
 
-               // WriteOutputToFile(outputReportPath, outputContent);
+                WriteOutputToFile(outputReportPath, outputContent);
             }
             catch (Exception e)
             {

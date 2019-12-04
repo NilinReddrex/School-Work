@@ -54,58 +54,53 @@ namespace MusicPlaylistAnalyzer
 
             // How many songs received 200 or more plays?
             var plays200OrMore = playlistInformationList.Where(playlistInformation => playlistInformation.Plays >= 200);
-            Console.WriteLine("Music Playlist Report \n");
-            Console.WriteLine("Songs that received 200 or more plays: ");
+            outputContent.Add("Music Playlist Report");
+            outputContent.Add("Songs that received 200 or more plays: ");
             foreach (var play in plays200OrMore)
             {
-                Console.WriteLine($"Name: {play.Name}, Artist: {play.Artist}, Album: {play.Album}, Genre: {play.Genre}, Size: {play.Size}, Time: {play.Time}, Year: {play.Year}, Plays: {play.Plays}");
+                outputContent.Add($"Name: {play.Name}, Artist: {play.Artist}, Album: {play.Album}, Genre: {play.Genre}, Size: {play.Size}, Time: {play.Time}, Year: {play.Year}, Plays: {play.Plays}");
             }
-            Console.WriteLine('\n');
             
             // How many songs are in the playlist with the Genre of “Alternative”?
             var numOfSongsAlternative = playlistInformationList.Where(playlistInformation => playlistInformation.Genre == "Alternative").Count();
-            Console.WriteLine($"Number of Alternative songs: {numOfSongsAlternative}\n");
+            outputContent.Add($"Number of Alternative songs: {numOfSongsAlternative}");
 
             //How many songs are in the playlist with the Genre of “Hip - Hop / Rap”?
             var numOfSongsHipHopRap = playlistInformationList.Where(playlistInformation => playlistInformation.Genre == "Hip-Hop/Rap").Count();
-            Console.WriteLine($"Number of Hip-Hop/Rap songs:{numOfSongsHipHopRap}\n");
+            outputContent.Add($"Number of Hip-Hop/Rap songs:{numOfSongsHipHopRap}");
 
             //What songs are in the playlist from the album “Welcome to the Fishbowl?”
             var songsFromAlbumWelcomeToThefishbowl = playlistInformationList.Where(playlistInformation => playlistInformation.Album == "Welcome to the Fishbowl");
-            Console.WriteLine("Songs from the album Welcome to the Fishbowl:");
+            outputContent.Add("Songs from the album Welcome to the Fishbowl:");
             foreach (var songs in songsFromAlbumWelcomeToThefishbowl)
             {
-                Console.WriteLine($"Name: {songs.Name}, Artist: {songs.Artist}, Album: {songs.Album}, Genre: {songs.Genre}, Size: {songs.Size}, Time: {songs.Time}, Year: {songs.Year}, Plays: {songs.Plays}");
+                outputContent.Add($"Name: {songs.Name}, Artist: {songs.Artist}, Album: {songs.Album}, Genre: {songs.Genre}, Size: {songs.Size}, Time: {songs.Time}, Year: {songs.Year}, Plays: {songs.Plays}");
             }
-            Console.WriteLine('\n');
 
             //What are the songs in the playlist from before 1970 ?
             var songsBefore1970 = playlistInformationList.Where(playlistInformation => playlistInformation.Year < 1970 );
-            Console.WriteLine("Songs from before 1970:");
+            outputContent.Add("Songs from before 1970:");
             foreach (var song in songsBefore1970)
             {
-                Console.WriteLine($"Name: {song.Name}, Artist: {song.Artist}, Album: {song.Album}, Genre: {song.Genre}, Size: {song.Size}, Time: {song.Time}, Year: {song.Year}, Plays: {song.Plays}");
+                outputContent.Add($"Name: {song.Name}, Artist: {song.Artist}, Album: {song.Album}, Genre: {song.Genre}, Size: {song.Size}, Time: {song.Time}, Year: {song.Year}, Plays: {song.Plays}");
             }
-            Console.WriteLine('\n');
-
+         
             //What are the song names that are more than 85 characters long?
             var songNameLongerThan85Char = playlistInformationList.Where(playlistInformation => playlistInformation.Name.Length > 85);
             Console.WriteLine("Song names longer than 85 characters:");
             foreach (var song in songNameLongerThan85Char)
             {
-                Console.WriteLine($"Name: {song.Name}");
+                outputContent.Add($"Name: {song.Name}");
             }
-            Console.WriteLine('\n');
-
+            
             //What is the longest song ? (longest in Time)
             var longestTime = playlistInformationList.Max(playlistInformation => playlistInformation.Time);
             var longestSong = playlistInformationList.Where(playlistInformation => playlistInformation.Time == longestTime);
             foreach (var song in longestSong)
             {
-                Console.WriteLine($"Name: {song.Name}, Artist: {song.Artist}, Album: {song.Album}, Genre: {song.Genre}, Size: {song.Size}, Time: {song.Time}, Year: {song.Year}, Plays: {song.Plays}");
+                outputContent.Add($"Name: {song.Name}, Artist: {song.Artist}, Album: {song.Album}, Genre: {song.Genre}, Size: {song.Size}, Time: {song.Time}, Year: {song.Year}, Plays: {song.Plays}");
             }
 
-            Console.ReadLine();
             return outputContent;
         }
         private static List<PlaylistInformation> ParsePlaylistInformationList(IEnumerable<string> readLines, Dictionary<string, int> headerIndexes)

@@ -56,6 +56,7 @@ namespace MusicPlaylistAnalyzer
             var plays200OrMore = playlistInformationList.Where(playlistInformation => playlistInformation.Plays >= 200);
             outputContent.Add("Music Playlist Report");
             outputContent.Add("Songs that received 200 or more plays: ");
+
             foreach (var play in plays200OrMore)
             {
                 outputContent.Add($"Name: {play.Name}, Artist: {play.Artist}, Album: {play.Album}, Genre: {play.Genre}, Size: {play.Size}, Time: {play.Time}, Year: {play.Year}, Plays: {play.Plays}");
@@ -72,6 +73,7 @@ namespace MusicPlaylistAnalyzer
             //What songs are in the playlist from the album “Welcome to the Fishbowl?”
             var songsFromAlbumWelcomeToThefishbowl = playlistInformationList.Where(playlistInformation => playlistInformation.Album == "Welcome to the Fishbowl");
             outputContent.Add("Songs from the album Welcome to the Fishbowl:");
+
             foreach (var songs in songsFromAlbumWelcomeToThefishbowl)
             {
                 outputContent.Add($"Name: {songs.Name}, Artist: {songs.Artist}, Album: {songs.Album}, Genre: {songs.Genre}, Size: {songs.Size}, Time: {songs.Time}, Year: {songs.Year}, Plays: {songs.Plays}");
@@ -80,6 +82,7 @@ namespace MusicPlaylistAnalyzer
             //What are the songs in the playlist from before 1970 ?
             var songsBefore1970 = playlistInformationList.Where(playlistInformation => playlistInformation.Year < 1970 );
             outputContent.Add("Songs from before 1970:");
+
             foreach (var song in songsBefore1970)
             {
                 outputContent.Add($"Name: {song.Name}, Artist: {song.Artist}, Album: {song.Album}, Genre: {song.Genre}, Size: {song.Size}, Time: {song.Time}, Year: {song.Year}, Plays: {song.Plays}");
@@ -87,7 +90,8 @@ namespace MusicPlaylistAnalyzer
          
             //What are the song names that are more than 85 characters long?
             var songNameLongerThan85Char = playlistInformationList.Where(playlistInformation => playlistInformation.Name.Length > 85);
-            Console.WriteLine("Song names longer than 85 characters:");
+            outputContent.Add("Song names longer than 85 characters:");
+
             foreach (var song in songNameLongerThan85Char)
             {
                 outputContent.Add($"Name: {song.Name}");
@@ -96,6 +100,8 @@ namespace MusicPlaylistAnalyzer
             //What is the longest song ? (longest in Time)
             var longestTime = playlistInformationList.Max(playlistInformation => playlistInformation.Time);
             var longestSong = playlistInformationList.Where(playlistInformation => playlistInformation.Time == longestTime);
+            outputContent.Add("Longest song:");
+
             foreach (var song in longestSong)
             {
                 outputContent.Add($"Name: {song.Name}, Artist: {song.Artist}, Album: {song.Album}, Genre: {song.Genre}, Size: {song.Size}, Time: {song.Time}, Year: {song.Year}, Plays: {song.Plays}");

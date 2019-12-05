@@ -7,6 +7,6 @@ I grew up in the bootheel of Missouri in a small town by the name of Steele. Whi
 ### Hobbies
 Some of my hobbies include:
 - [Video Games](VideoGames.md)
-- Programing
-- Hiking
+- [Programming](Programming.md)
+- [Hiking](Hiking.md)
 

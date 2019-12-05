@@ -4,4 +4,4 @@ What do I enjoy doing when I'm not programming or binge gaming? I enjoy getting 
 
 ![HikingPhoto](IMG_5891.jpeg)
 
-[Back to Home](README.md) [Previous Page](Programming.md) [Next Page](LanguageThatshapedMe.md)
+[Back to Home](README.md) [Previous Page](Programming.md) [Next Page](LanguageThatShapedMe.md)

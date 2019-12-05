@@ -10,3 +10,4 @@ Some of my hobbies include:
 - [Programming](Programming.md)
 - [Hiking](Hiking.md)
 
+[Next page](VideoGames.md)

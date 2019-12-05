@@ -53,4 +53,4 @@ C# Code
         }
 ```
 
-[Back to Home](README.md)
+[Back to Home](README.md) [Previous Page](VideoGames.md) [Next Page](Hiking.md)

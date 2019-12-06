@@ -7,7 +7,7 @@ A few languages I can code in are:
 - Python
 - Java Script
 
-C++ was the first programming language I learned. I took a course in it while attending OTC and discovered my interest for programming. Some of my work in a couple of the languages I have worked in are below.
+C++ was the first programming language I learned. I took a course in it while attending OTC and discovered my interest in programming. Some of my work in a couple of the languages I have worked in are below.
 
 ### Python Code
 ```Python
@@ -15,8 +15,8 @@ while True:
     x_intial = float(input("Enter the object's initial position: "))
     v_intial = float(input("Enter the object's initial velocity: "))
     acceleration = float(input("Enter the object's acceleration: "))
-    time_passsed = float(input("Enter the amount of time passed: "))
-    finalPosition = x_intial + v_intial * time_passsed + 0.5 * acceleration * time_passsed ** 2
+    time_passed = float(input("Enter the amount of time passed: "))
+    finalPosition = x_intial + v_intial * time_passed + 0.5 * acceleration * time_passed ** 2
     print(finalPosition)
     cont = input("Another one? yes/no > ")
     while cont.lower() not in ("yes","no"):
@@ -25,7 +25,7 @@ while True:
         break
 ```
 
-C# Code
+### C# Code
 
 ```C#
   static string PromptUserForInputFile(bool required = false)
@@ -53,4 +53,4 @@ C# Code
         }
 ```
 
-[Back to Home](README.md) [Previous Page](VideoGames.md) [Next Page](Hiking.md)
+[Back to Home](README.md) | [Previous Page](VideoGames.md) | [Next Page](Hiking.md)

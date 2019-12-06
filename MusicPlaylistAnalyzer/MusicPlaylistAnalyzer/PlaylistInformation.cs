@@ -86,6 +86,11 @@ namespace MusicPlaylistAnalyzer
         {
             return string.IsNullOrWhiteSpace(inputString) ? 0 : Convert.ToInt32(inputString);
         }
+
+        public override string ToString()
+        {
+            return $"Name: {this.Name}, Artist: {this.Artist}, Album: {this.Album}, Genre: {this.Genre}, Size: {this.Size}, Time: {this.Time}, Year: {this.Year}, Plays: {this.Plays}";
+        }
     }
 }
 

@@ -57,9 +57,9 @@ namespace MusicPlaylistAnalyzer
             outputContent.Add("Music Playlist Report");
             outputContent.Add("Songs that received 200 or more plays: ");
 
-            foreach (var play in plays200OrMore)
+            foreach (var song in plays200OrMore)
             {
-                outputContent.Add($"Name: {play.Name}, Artist: {play.Artist}, Album: {play.Album}, Genre: {play.Genre}, Size: {play.Size}, Time: {play.Time}, Year: {play.Year}, Plays: {play.Plays}");
+                outputContent.Add(song.ToString());
             }
             
             // How many songs are in the playlist with the Genre of “Alternative”?
@@ -74,9 +74,9 @@ namespace MusicPlaylistAnalyzer
             var songsFromAlbumWelcomeToThefishbowl = playlistInformationList.Where(playlistInformation => playlistInformation.Album == "Welcome to the Fishbowl");
             outputContent.Add("Songs from the album Welcome to the Fishbowl:");
 
-            foreach (var songs in songsFromAlbumWelcomeToThefishbowl)
+            foreach (var song in songsFromAlbumWelcomeToThefishbowl)
             {
-                outputContent.Add($"Name: {songs.Name}, Artist: {songs.Artist}, Album: {songs.Album}, Genre: {songs.Genre}, Size: {songs.Size}, Time: {songs.Time}, Year: {songs.Year}, Plays: {songs.Plays}");
+                outputContent.Add(song.ToString());
             }
 
             //What are the songs in the playlist from before 1970 ?
@@ -85,7 +85,7 @@ namespace MusicPlaylistAnalyzer
 
             foreach (var song in songsBefore1970)
             {
-                outputContent.Add($"Name: {song.Name}, Artist: {song.Artist}, Album: {song.Album}, Genre: {song.Genre}, Size: {song.Size}, Time: {song.Time}, Year: {song.Year}, Plays: {song.Plays}");
+                outputContent.Add(song.ToString());
             }
          
             //What are the song names that are more than 85 characters long?
@@ -104,7 +104,7 @@ namespace MusicPlaylistAnalyzer
 
             foreach (var song in longestSong)
             {
-                outputContent.Add($"Name: {song.Name}, Artist: {song.Artist}, Album: {song.Album}, Genre: {song.Genre}, Size: {song.Size}, Time: {song.Time}, Year: {song.Year}, Plays: {song.Plays}");
+                outputContent.Add(song.ToString());
             }
 
             return outputContent;

@@ -1,0 +1,88 @@
+#mainWrapper {
+    margin: auto;
+    margin-top: 50px;
+    width: 1101px;
+    border: 6px solid bisque;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: darkgray;
+}
+
+.header {
+    text-align: center;
+}
+
+#left{
+    padding: 20px;
+    margin: 20px;
+    height: 390px;
+    border: 8px solid bisque;
+    border-radius: 10px;
+    width: 241px;
+    background-color: darkslategray;
+}
+
+#right {
+    padding: 20px;
+    margin: 20px;
+    height: 390px;
+    border: 8px solid bisque;
+    border-radius: 10px;
+    background-color: darkslategray;
+    width: 200px;
+}
+
+#rowWrapper {
+    width: 428px;
+    margin: 20px;
+}
+
+#top {
+    width: 372px;
+    height: 190px;
+    padding: 20px;
+    border: 8px solid bisque;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: darkslategray;
+}
+
+#bottom {
+    width: 372px;
+    height: 120px;
+    padding: 20px;
+    border: 8px solid bisque;
+    border-radius: 10px;
+    background-color: darkslategray;
+}
+
+/*
+ References:
+ https://www.youtube.com/watch?list=PLpvL1C_oZsr9OJ2qwr2924Oc-nm1UNCnF&time_continue=2&v=6wM5mrNGOUI&feature=emb_logo Lecture on CSS Box Model and Floats
+ https://www.youtube.com/watch?list=PLpvL1C_oZsr8a9UsAUzgQ96BA6rN9ON21&time_continue=1&v=NILMgDcdBuo&feature=emb_logo Lecture on CSS3 Multi-Column Layouts
+*/
+.clear:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+}
+/*end of reference*/
+
+/*Reference: https://www.w3schools.com/cssref/pr_text_text-align.ASP
+    shift paragraph to left of screen.
+*/
+p.date {
+   text-align: left;
+    
+}
+/*end of reference*/
+
+
+
+
+
+

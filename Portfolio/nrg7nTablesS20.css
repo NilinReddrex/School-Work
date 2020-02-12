@@ -1,0 +1,23 @@
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 3px solid black;
+    
+}
+#it {
+    background-color: aqua
+}
+
+#computerScience {
+    background-color: #3f3faa;
+}
+#mathematics {
+    background-color: chartreuse;
+}
+
+
+/*#mascot {
+    width: 150px;
+}*/

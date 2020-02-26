@@ -4,92 +4,134 @@ Pawprint: nrg7n
 Date: 02/11/2020
 Challenge 4: Tables Spring 2020
 -->
+
+<!--
+REFERENCES
+https://www.w3schools.com/bootstrap4/default.asp
+https://www.w3schools.com/html/html_tables.asp
+https://fonts.google.com/ 
+https://missouri.instructure.com/courses/28042/pages/lecture-05-html-tables-css3-tables?module_item_id=1756971 Lecture material.
+https://missouri.instructure.com/courses/28042/pages/lecture-06-borders-box-shadow-and-fonts?module_item_id=1756973 Lecture material
+https://missouri.instructure.com/courses/28042/pages/lecture-07-transitions-and-animations?module_item_id=1756975 Lecture material
+
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Classes Taken</title>
-    <!-- Bootstrap CSS -->
-  <!--  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-          crossorigin="anonymous">-->
-    
-    <link rel="stylesheet" type="text/css" href="nrg7nTablesS20.css">
-    </head>
-    <body>
-        <!--<div class="container-fluid">-->
-            <!-- PUT NAVE BAR HERE-->
-       <!-- </div>-->
-       <!-- <div class="container">-->
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th colspan="5">Classes Taken</th>
-                    </tr>
-                    <tr>
-                       <!-- <img id="mascot" src="mu-tiger.png" alt="Mascot"-->
-                        <th>University of Missouri</th>
-                    </tr>
-                    <tr>
-                        <th>Department</th>
-                        <th>Class</th>
-                        <th>Number</th>
-                        <th>Description</th>
-                        <th>Projects</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td id="it" rowspan="3">Information Technology</td>
-                        <td>Introduction to Computer Science</td>
-                        <td>INFOTC 1000</td>
-                        <td>This course introduces the field of Information Technology including foundation experiences and knowledge, the history of digital technologies, emphasis areas in the program, career opportunities, and ethical/social issues. Students participate in activities that introduce students to digital media, digital systems, and software engineering. Students learn to use distributed version control systems and how to work on collaborative teams.</td>
-                        <td>n/a</td>
-                    </tr>
-                    
-                    <tr>
-                       
-                        <td>Programming Languages and Paradigms</td>
-                        <td>INFOTC 2040</td>
-                        <td>This course presents programming principles and their syntactical representation and implementation across languages including those that are compiled and interpreted. The course shows how to implement algorithms and data structures to solve problems while utilizing paradigms offered by the programming languages such as procedural, object-oriented, protocol-oriented, functional, and declarative. Language support for strong and weak typing and type safety are covered along with support for optional values. Provides experience in developing algorithms and determining their efficiency, designing application architecture, and developing applications. Building and using libraries/application programming interfaces is covered. Git and GitHub are used for code versioning and collaboration. Integrated development environments (IDEs) are used for managing, building, debugging, and testing applications. </td>
-                        <td>n/a</td>
-                    </tr>
-                    
-                      <tr >
-                        <td>WEB APPLICATION DEVELOPMENT 1</td>
-                        <td>INFOTC 2830</td>
-                        <td>This course will attempt to provide a comprehensive understanding of the evolution, the technologies, and the tools of the Internet. In particular, issues pertaining to the World Wide Web and Multimedia (HTML, CGI, Web based applications) will be discussed in detail.</td>
-                        <td>n/a</td>
-                    </tr>
-                    
-                    <tr>
-                        <td id="computerScience">Computer Science</td>
-                        <td>C++ Programming</td>
-                        <td>CSC 140</td>
-                        <td> Topics included are control structures, data types, functions, classes, pointers and software development tools.</td>
-                        <td>n/a</td>
-                    </tr>
-                    
-                    <tr>
-                        <td id="mathematics" rowspan="2">Mathematics</td>
-                        <td>Analytic Geometry and Calculus I</td>
-                        <td>MATH 1500</td>
-                        <td>Elementary analytic geometry, functions, limits, continuity, derivatives, antiderivatives, definite integrals.</td>
-                        <td>n/a</td>
-                    </tr>
-                    
-                     <tr>
-                        <td>FINITE MATHEMATICS</td>
-                        <td>MATH 1300</td>
-                        <td>A selections of topics in finite mathematics such as: basic financial mathematics, counting methods and basic probability and statistics, systems of linear equations and matrices. </td>
-                        <td>n/a</td>
-                    </tr>
-                </tbody>
 
-            </table>
-    <!--</div>-->
-    
-    </body>
-</html>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <!--My external CSS-->
+    <link rel="stylesheet" type="text/css" href="nrg7nColumns.css">
+    <link rel="stylesheet" type="text/css" href="nrg7nPortfolio.css">
+    <link rel="stylesheet" type="text/css" href="nrg7nTablesS20.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <ul id="horizontalNavBar">
+            <li class="navBarItemName"><a href="nrg7nPortfolio.html">Nilin Reddrex</a></li>
+            <li class="navBarItemSkills"><a href="nrg7nColumns.html">Skills</a></li>
+            <li class="navBarItemClassesTaken"><a href="nrg7nTablesS20.html">Classes Taken</a></li>
+            <li class="navBarItemProjects"><a href="nrg7nProjectsS20.html">Projects</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <table id="courses" class="table">
+            <thead>
+                <tr>
+                    <th id="header" colspan="5">Classes Taken</th>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <span> <img id="mascot" src="mu-tiger.png" alt="Mascot"></span>
+                        <span id="schoolName">University of Missouri</span>
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>Department</th>
+                    <th>Class</th>
+                    <th>Number</th>
+                    <th>Description</th>
+                    <th>Projects</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--
+                Course Information References
+                http://catalog.missouri.edu/courseofferings/cmp_sc/
+                http://catalog.missouri.edu/courseofferings/infotc/
+                http://catalog.missouri.edu/courseofferings/math/
+                https://catalog.otc.edu/preview_course_nopop.php?catoid=8&coid=7389
+
+-->
+                <tr class="odd">
+                    <td id="it" rowspan="3">Information Technology</td>
+                    <td>Introduction to Computer Science</td>
+                    <td>INFOTC 1000</td>
+                    <td>This course introduces the field of Information Technology including foundation experiences and knowledge, the history of digital technologies, emphasis areas in the program, career opportunities, and ethical/social issues. Students participate in activities that introduce students to digital media, digital systems, and software engineering. Students learn to use distributed version control systems and how to work on collaborative teams.</td>
+                    <td>Portfolio</td>
+                </tr>
+                <tr>
+                    <td>Programming Languages and Paradigms</td>
+                    <td>INFOTC 2040</td>
+                    <td>This course presents programming principles and their syntactical representation and implementation across languages including those that are compiled and interpreted. The course shows how to implement algorithms and data structures to solve problems while utilizing paradigms offered by the programming languages such as procedural, object-oriented, protocol-oriented, functional, and declarative. Language support for strong and weak typing and type safety are covered along with support for optional values. Provides experience in developing algorithms and determining their efficiency, designing application architecture, and developing applications. Building and using libraries/application programming interfaces is covered. Git and GitHub are used for code versioning and collaboration. Integrated development environments (IDEs) are used for managing, building, debugging, and testing applications. </td>
+                    <td>Music Playlist Analyzer</td>
+                </tr>
+                <tr class="odd">
+                    <td>Web Application Development 1</td>
+                    <td>INFOTC 2830</td>
+                    <td>This course will attempt to provide a comprehensive understanding of the evolution, the technologies, and the tools of the Internet. In particular, issues pertaining to the World Wide Web and Multimedia (HTML, CGI, Web based applications) will be discussed in detail.</td>
+                    <td>In progress</td>
+                </tr>
+                <tr>
+                    <td id="computerScience">Computer Science</td>
+                    <td>C++ Programming</td>
+                    <td>CSC 140</td>
+                    <td> Topics included are control structures, data types, functions, classes, pointers and software development tools.</td>
+                    <td>Calculate Mathematical Constant e</td>
+                </tr>
+                <tr class="odd">
+                    <td id="mathematics" rowspan="2">Mathematics</td>
+                    <td>Analytic Geometry and Calculus I</td>
+                    <td>MATH 1500</td>
+                    <td>Elementary analytic geometry, functions, limits, continuity, derivatives, antiderivatives, definite integrals.</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Finite Mathematics</td>
+                    <td>MATH 1300</td>
+                    <td>A selections of topics in finite mathematics such as: basic financial mathematics, counting methods and basic probability and statistics, systems of linear equations and matrices. </td>
+                    <td>n/a</td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="cardWrapper" class="clear">
+            <div id="firstColumn" class="column"><img id="profileImg" src="IMG_0361.jpg" alt="profile image">
+            </div>
+            <div id="secondColumn" class="column">
+                <h3>Nilin Reddrex</h3>
+                <hr>
+                <ul class="list">
+                    <li>Information Technology|Junior</li>
+                    <li>Total Credits: 80 hrs </li>
+                </ul>
+            </div>
+            <div id="thirdColumn" class="column">
+                <h3>Contact</h3>
+                <hr>
+                <ul class="list">
+                    <li>Email: nrg7n@mail.missouri.edu</li>
+                    <li>github: NReddrex </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body></html>

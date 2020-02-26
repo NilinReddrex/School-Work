@@ -13,24 +13,28 @@ Challenge 3: Multi-Column Layout
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <title> Skills Page</title>
-        
-        <link rel="stylesheet" type="text/css" href="nrg7nColumns.css">
-        <link rel="stylesheet" type="text/css" href="nrg7nPortfolio.css">
-    </head>
-    <body>
-         <ul id="horizontalNavBar">
-            <li class="navBarItemName"><a href="nrg7nPortfolio.html">Nilin Reddrex</a></li>
-            <li class="navBarItemSkills"><a href="nrg7nColumns.html">Skills</a></li>
-        </ul>
-        
-        <!-- Main wrapper. This div should wrap all columns, row wrapper, and title header -->
-        <div id="mainWrapper" class="clear">
-            <h2 class="header">Skills</h2>
-            
-            <!-- Left Column -->
-            <!-- Put left column physical width calculations here: 
+    <meta charset="utf-8">
+    <title> Skills Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="nrg7nColumns.css">
+    <link rel="stylesheet" type="text/css" href="nrg7nPortfolio.css">
+    <link rel="stylesheet" type="text/css" href="nrg7nTablesS20.css">
+</head>
+
+<body>
+    <ul id="horizontalNavBar">
+        <li class="navBarItemName"><a href="nrg7nPortfolio.html">Nilin Reddrex</a></li>
+        <li class="navBarItemSkills"><a href="nrg7nColumns.html">Skills</a></li>
+        <li class="navBarItemClassesTaken"><a href="nrg7nTablesS20.html">Classes Taken</a></li>
+        <li class="navBarItemProjects"><a href="nrg7nProjectsS20.html">Projects</a></li>
+    </ul>
+
+    <!-- Main wrapper. This div should wrap all columns, row wrapper, and title header -->
+    <div id="mainWrapper" class="clear">
+        <h2 class="header">Skills</h2>
+
+        <!-- Left Column -->
+        <!-- Put left column physical width calculations here: 
                     241px -> content width
                      40px -> padding (20 px left, 20px right)
                      16px -> border (8px left, 8px right)
@@ -38,19 +42,19 @@ Challenge 3: Multi-Column Layout
                 =============
                     337px
             -->
-            <div id="left" class="column">
-                <h3 class="header">Languages</h3>
-                <hr>
-                <ul>
-                    <li>C#</li>
-                    <li>C++</li>
-                    <li>Java Script</li>
-                    <li>Python</li>
-                </ul>
-            </div>
-            
-            <!-- Row Wrapper. This div will contain two rows -->
-            <!--Put middle column physical width calculations here:
+        <div id="left" class="column">
+            <h3 class="header">Languages</h3>
+            <hr>
+            <ul>
+                <li>C#</li>
+                <li>C++</li>
+                <li>Java Script</li>
+                <li>Python</li>
+            </ul>
+        </div>
+
+        <!-- Row Wrapper. This div will contain two rows -->
+        <!--Put middle column physical width calculations here:
                     372px -> content width
                      40px -> padding (20px left, 20px right)
                      16px -> border (8px left, 8px right)
@@ -58,29 +62,29 @@ Challenge 3: Multi-Column Layout
                  ==============
                     468px
             -->
-            <div id="rowWrapper" class="column">
-                <div id="top">
-                    <h3 class="header">Coursework</h3>
-                    <hr>
-                    <ul>
-                        <li>C++ Programming</li>
-                        <li>Programming Languages and Paradigms</li>
-                    </ul>
-                </div>
-                
-                <div id="bottom" >
-                    <h3 class="header">Other</h3>
-                    <hr>
-                    <ul>
-                        <li>Visual Studio</li>
-                        <li>Visual Studio Code</li>
-                        <li>Brackets</li>
-                    </ul>
-                </div>
+        <div id="rowWrapper" class="column">
+            <div id="top">
+                <h3 class="header">Coursework</h3>
+                <hr>
+                <ul>
+                    <li>C++ Programming</li>
+                    <li>Programming Languages and Paradigms</li>
+                </ul>
             </div>
-            
-            <!-- Right Column -->
-            <!--Put right column physical width calculations here: 
+
+            <div id="bottom">
+                <h3 class="header">Other</h3>
+                <hr>
+                <ul>
+                    <li>Visual Studio</li>
+                    <li>Visual Studio Code</li>
+                    <li>Brackets</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Right Column -->
+        <!--Put right column physical width calculations here: 
                              40px -> padding (20px left, 20px right)
                              40px -> margin (20px left, 20px right;)
                         +    16px -> border (8px left, 8px right) 
@@ -97,20 +101,19 @@ Challenge 3: Multi-Column Layout
                         =============
                             200px -> right content width
            -->
-            <div id="right" class="column">
-                <h3 class="header">Technologies</h3>
-                <hr>
-                <ul>
-                    <li>.netFramework</li>
-                    <li>console application</li>
-                    <li>git</li>
-                    <li>html5</li>
-                </ul>
-            </div>
+        <div id="right" class="column">
+            <h3 class="header">Technologies</h3>
+            <hr>
+            <ul>
+                <li>.netFramework</li>
+                <li>console application</li>
+                <li>git</li>
+                <li>html5</li>
+            </ul>
         </div>
-        
-        <!--Reference: https://www.w3schools.com/cssref/pr_text_text-align.ASP
+    </div>
+
+    <!--Reference: https://www.w3schools.com/cssref/pr_text_text-align.ASP
         shift paragraph to left of screen.-->
-        <p class="date" >Last updated: 02/07/2020</p>
-    </body>
-</html>
+    <p class="date">Last updated: 02/07/2020</p>
+</body></html>

@@ -1,0 +1,71 @@
+/*References:
+https://www.w3schools.com/css/css3_flexbox.asp#flex-direction
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://missouri.instructure.com/courses/28042/pages/lecture-04-css3-multi-column-layouts?module_item_id=1756986 Lecture material.
+*/
+#container {
+    width: 90%;
+    position: relative;
+    margin-top: 10px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap-reverse;
+}
+
+.cardContainer {
+    border: 4px solid black;
+    border-radius: 15px;
+    width: 400px;
+    height: 250px;
+    background-color: darkgray;
+    position: relative;
+    /*Reference for margin shorthand.
+    https://www.w3schools.com/css/css_margin.asp*/
+    margin: 5% auto 5% auto;
+    /*end*/
+    /*Reference for box shadow.
+    https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+    */
+    box-shadow: 5px 10px;
+    /*end*/
+    display: flex;
+    /*Reference for overflow property.
+    https://www.w3schools.com/css/css_overflow.asp
+    */
+    overflow: hidden;
+}
+
+.images {
+    width: 40%;
+    height: 100%;
+    border-right: 10px double orange;
+}
+
+.cardContent {
+    width: 60%;
+    text-align: center;
+}
+
+span {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    /*Google font from https://fonts.google.com/?selection.family=Squada+One*/
+    font-family: 'Squada One', cursive;
+}
+
+p {
+    margin: 10px;
+    font-size: 18px;
+    color: black;
+    font-family: 'Squada One', cursive;
+}
+
+.visit {
+    font-size: 20px;
+    /*Refernce for font-weight property
+    https://www.w3schools.com/csSref/pr_font_weight.asp
+    */
+    font-weight: bold;
+    color: orange;
+}

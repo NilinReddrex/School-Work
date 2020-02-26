@@ -10,9 +10,10 @@
 
 .header {
     text-align: center;
+    font-family: 'Roboto Condensed', sans-serif, monospace;
 }
 
-#left{
+#left {
     padding: 20px;
     margin: 20px;
     height: 390px;
@@ -20,6 +21,7 @@
     border-radius: 10px;
     width: 241px;
     background-color: darkslategray;
+    font-family: 'Roboto Condensed', sans-serif, monospace;
 }
 
 #right {
@@ -30,6 +32,7 @@
     border-radius: 10px;
     background-color: darkslategray;
     width: 200px;
+    font-family: 'Roboto Condensed', sans-serif, monospace;
 }
 
 #rowWrapper {
@@ -45,6 +48,7 @@
     border-radius: 10px;
     margin-bottom: 20px;
     background-color: darkslategray;
+    font-family: 'Roboto Condensed', sans-serif, monospace;
 }
 
 #bottom {
@@ -54,6 +58,7 @@
     border: 8px solid bisque;
     border-radius: 10px;
     background-color: darkslategray;
+    font-family: 'Roboto Condensed', sans-serif, monospace;
 }
 
 /*
@@ -70,19 +75,19 @@
 .column {
     float: left;
 }
+
 /*end of reference*/
 
 /*Reference: https://www.w3schools.com/cssref/pr_text_text-align.ASP
     shift paragraph to left of screen.
 */
 p.date {
-   text-align: left;
-    
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif, monospace;
+
 }
+
 /*end of reference*/
-
-
-
-
-
-
+body {
+    font-family: 'Roboto Condensed', sans-serif, monospace;
+}

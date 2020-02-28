@@ -1,0 +1,91 @@
+#backLink {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: x-large;
+}
+
+#currentTheme {
+    color: black;
+}
+
+#topHeaderContainer {
+    text-align: center;
+    width: 1000px;
+    position: relative;
+    margin: auto;
+
+}
+
+.itemsContainer {
+    border: 10px solid black;
+    width: 1000px;
+    height: 300px;
+    /* Reference for scroll ability: https://www.w3schools.com/css/css_overflow.asp*/
+    overflow-y: auto;
+    /* Reference for scroll hidden: https://www.w3schools.com/cssref/css3_pr_overflow-x.asp*/
+    overflow-x: hidden;
+    background-color: darkslategrey;
+    position: relative;
+    margin: auto auto 20px auto;
+}
+
+.row {
+    display: flex;
+    border-bottom: 2px solid black
+}
+
+.itemHeads {
+    width: 250px;
+    text-align: center;
+    height: 50px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#formContainer {
+    width: 100%;
+    position: relative;
+
+}
+
+form {
+    border: 10px solid black;
+    width: 1000px;
+    height: 150px;
+    background-color: darkslategrey;
+    color: black;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+/* CSS forms reference https://www.w3schools.com/css/css_form.asp*/
+input,
+select {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+
+}
+
+input[type=button] {
+    border: 2px solid black;
+    width: 100px;
+}
+
+/*end of reference*/
+/* Reference: https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp*/
+body {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+    link-color
+}
+
+/*end of reference*/
+}

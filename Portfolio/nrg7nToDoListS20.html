@@ -10,10 +10,52 @@ Challenge: To-Do List S20
 <head>
     <meta charset="utf-8">
     <title>To Do List</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--My external CSS-->
+    <link rel="stylesheet" type="text/css" href="nrg7nToDoListS20.css">
+    <!--My external JavaScript-->
+
+
+
 </head>
 
 <body>
+    <a id="backLink" href="#">Back to Projects</a>
+    <button id="currentTheme" onclick="darkLightTheme()" value="Light Theme">Light Theme</button>
+    <div id="topHeaderContainer">
+        <h1 id="title" onclick="editTitle()">To Do List</h1>
+    </div>
+    <div class="itemsContainer">
+        <div class="row">
+            <div id="title" class="itemHeads">Title</div>
+            <div id="type" class="itemHeads">Type</div>
+            <div id="date" class="itemHeads">Date</div>
+            <div id="action" class="itemHeads">Action</div>
+        </div>
+    </div>
 
+    <div id="formContainer">
+        <form>
+            <input type="text" id="formTitle" placeholder="Title" required>
+            <select id="formType" name="type" required>
+                <!--disable first item reference
+                    hhttps://www.w3schools.com/html/html_form_attributes.asp-->
+                <option value="" selected disabled>Select type</option>
+                <option value="homework">Homework</option>
+                <option value="exam">Exam</option>
+                <option value="lab">Lab</option>
+            </select>
+            <input type="date" id="formDate">
+            <br>
+            <input type="button" onclick="submitForm()" value="Submit">
+            <input type="button" onclick="clearForm()" value="Clear form">
+        </form>
+    </div>
+    <script src="nrg7nToDoListS20.js"></script>
 </body>
 
 </html>

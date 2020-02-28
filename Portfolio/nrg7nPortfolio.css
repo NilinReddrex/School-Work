@@ -23,6 +23,7 @@ li.navBarItemName {
     margin: 10px;
     font-size: 30px;
     font-family: 'Roboto Condensed', sans-serif, monospace;
+    text-decoration: none;
 }
 
 li.navBarItemSkills {
@@ -73,6 +74,13 @@ p {
 }
 
 body {
-    background-color: darkslategray;
+    background-image: url(Forest_Green.jpg);
     font-family: 'Roboto Condensed', sans-serif, monospace;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif, monospace;
+    font-size: 20px;
 }

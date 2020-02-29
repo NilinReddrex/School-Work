@@ -5,8 +5,14 @@
     font-size: x-large;
 }
 
+#backLink.dark-mode {
+    color: white;
+
+}
+
 #currentTheme {
     color: black;
+    margin-left: 1000px;
 }
 
 #topHeaderContainer {
@@ -14,11 +20,11 @@
     width: 1000px;
     position: relative;
     margin: auto;
-
+    color: cadetblue;
 }
 
 .itemsContainer {
-    border: 10px solid black;
+    border: 3px solid black;
     width: 1000px;
     height: 300px;
     /* Reference for scroll ability: https://www.w3schools.com/css/css_overflow.asp*/
@@ -50,14 +56,18 @@
 }
 
 form {
-    border: 10px solid black;
+    border: 3px solid black;
     width: 1000px;
-    height: 150px;
+    height: 175px;
     background-color: darkslategrey;
     color: black;
     position: relative;
     margin: auto;
     text-align: center;
+}
+
+form.dark-mode {
+    background-color: black;
 }
 
 /* CSS forms reference https://www.w3schools.com/css/css_form.asp*/
@@ -66,10 +76,9 @@ select {
     padding: 10px;
     margin: 10px;
     width: 200px;
-
 }
 
-input[type=button] {
+inputtype {
     border: 2px solid black;
     width: 100px;
 }
@@ -78,14 +87,25 @@ input[type=button] {
 /* Reference: https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp*/
 body {
     background-color: white;
-    color: black;
+    color: white;
 }
 
 .dark-mode {
     background-color: black;
-    color: white;
-    link-color
+    color: black;
 }
 
 /*end of reference*/
+#errorMessage {
+    color: red;
+}
+
+.button {
+    background-color: white;
+    color: black;
+}
+
+.button.dark-mode {
+    background-color: black;
+    color: white;
 }

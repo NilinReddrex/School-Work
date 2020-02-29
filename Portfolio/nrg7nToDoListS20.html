@@ -4,12 +4,20 @@ Pawprint: nrg7n
 Date: 02/25/2020
 Challenge: To-Do List S20
 -->
+
+<!-- References: 
+https://missouri.instructure.com/courses/28042/pages/lecture-08-html-forms?module_item_id=1756955
+https://missouri.instructure.com/courses/28042/pages/lecture-09-javascript-and-dom?module_item_id=1756957
+https://missouri.instructure.com/courses/28042/pages/lecture-10-accessing-form-data?module_item_id=1756942
+https://missouri.instructure.com/courses/28042/pages/lecture-11-jquery?module_item_id=1756944
+-->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <title>To Do List</title>
+    <!--jQuery-->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -18,13 +26,11 @@ Challenge: To-Do List S20
     <!--My external CSS-->
     <link rel="stylesheet" type="text/css" href="nrg7nToDoListS20.css">
     <!--My external JavaScript-->
-
-
-
+    <script src="nrg7nToDoListS20.js"></script>
 </head>
 
-<body>
-    <a id="backLink" href="#">Back to Projects</a>
+<body class="themed">
+    <a id="backLink" href="#" class=themed>Back to Projects</a>
     <button id="currentTheme" onclick="darkLightTheme()" value="Light Theme">Light Theme</button>
     <div id="topHeaderContainer">
         <h1 id="title" onclick="editTitle()">To Do List</h1>
@@ -40,6 +46,8 @@ Challenge: To-Do List S20
 
     <div id="formContainer">
         <form>
+            <span id="errorMessage"></span>
+            <br>
             <input type="text" id="formTitle" placeholder="Title" required>
             <select id="formType" name="type" required>
                 <!--disable first item reference
@@ -51,11 +59,10 @@ Challenge: To-Do List S20
             </select>
             <input type="date" id="formDate">
             <br>
-            <input type="button" onclick="submitForm()" value="Submit">
-            <input type="button" onclick="clearForm()" value="Clear form">
+            <input class="button themed" type="button" onclick="submitForm()" value="Submit">
+            <input class="button themed" type="button" onclick="clearForm()" value="Clear form">
         </form>
     </div>
-    <script src="nrg7nToDoListS20.js"></script>
 </body>
 
 </html>

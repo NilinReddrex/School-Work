@@ -22,35 +22,6 @@ https://www.youtube.com/watch?list=PLpvL1C_oZsr_wrzTf7K84Vf8I_mV0xjtC&time_conti
     display: inline;
     margin: 10px;
 }
-/* 
-li.navBarItemName {
-    display: inline;
-    margin: 10px;
-    font-size: 30px;
-    font-family: 'Roboto Condensed', sans-serif, monospace;
-    text-decoration: none;
-}
-
-li.navBarItemSkills {
-    display: inline;
-    margin: 10px;
-    font-size: 30px;
-    font-family: 'Roboto Condensed', sans-serif, monospace;
-}
-
-li.navBarItemClassesTaken {
-    display: inline;
-    margin: 10px;
-    font-size: 30px;
-    font-family: 'Roboto Condensed', sans-serif, monospace;
-}
-
-li.navBarItemProjects {
-    display: inline;
-    margin: 10px;
-    font-size: 30px;
-    font-family: 'Roboto Condensed', sans-serif, monospace;
-} */
 
 img.profileImage {
     display: block;

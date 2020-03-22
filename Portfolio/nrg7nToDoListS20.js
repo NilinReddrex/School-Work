@@ -91,6 +91,6 @@ function darkLightTheme() {
 function editTitle() {
     var editedTitle = prompt("Change title.");
     if (editedTitle !== null && editedTitle !== "") {
-        document.getElementById("title").innerHTML = editedTitle;
+        document.getElementById("topTitle").innerHTML = editedTitle;
     }
 }

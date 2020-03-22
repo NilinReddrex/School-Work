@@ -18,6 +18,11 @@ https://www.youtube.com/watch?list=PLpvL1C_oZsr_wrzTf7K84Vf8I_mV0xjtC&time_conti
     font-family: 'Roboto Condensed', sans-serif, monospace;
 }
 
+.navBarItem {
+    display: inline;
+    margin: 10px;
+}
+/* 
 li.navBarItemName {
     display: inline;
     margin: 10px;
@@ -45,7 +50,7 @@ li.navBarItemProjects {
     margin: 10px;
     font-size: 30px;
     font-family: 'Roboto Condensed', sans-serif, monospace;
-}
+} */
 
 img.profileImage {
     display: block;
@@ -84,3 +89,11 @@ a {
     font-family: 'Roboto Condensed', sans-serif, monospace;
     font-size: 20px;
 }
+    
+}
+.active .anchor:hover {
+    background-color: tan;
+    color: white
+
+}
+

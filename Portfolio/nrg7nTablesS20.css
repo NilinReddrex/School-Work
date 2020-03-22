@@ -18,7 +18,7 @@ table {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif, monospace;
 }
-}
+
 
 th,
 td {
@@ -62,6 +62,7 @@ body {
     box-shadow: 10px 10px 20px bisque;
     margin: auto;
     width: 50%;
+    background-color: white;
 }
 
 #firstColumn {

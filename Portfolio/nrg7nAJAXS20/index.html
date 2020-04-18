@@ -1,0 +1,58 @@
+<!-- 
+    name: Nilin Reddrex
+    pawprint: nrg7n
+    date: 04/17/2020
+    challenge: AJAX Spring 2020
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CS/IT 2830 INFO</title>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- external js -->
+    <script src="AJAXS20.js"></script>
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="AJAXS20.css">
+</head>
+
+<body onload="init()">
+    <div class="container-fluid">
+        <a id="backLink" href="../nrg7nProjectsS20.html" class=themed>Back to Projects</a>
+    </div>
+    <div id="mainContainer">
+        <h1>CS/IT 2830 DASHBOARD</h1>
+        <div id="classInfo" class="textContent"></div>
+        <div id="dashboardContainer">
+            <div class="flexBoxContainer">
+                <div class="textContent">Class Type:</div>
+                <br />
+                <div id="classType" class="textContent"></div>
+            </div>
+            <div class="flexBoxContainer">
+                <div class="textContent">Current Assignment:</div>
+                <br />
+                <div id="currentAssign" class="textContent"></div>
+            </div>
+        </div>
+        <div id="tabViewer">
+            <!-- Reference: https://www.w3schools.com/howto/howto_js_tabs.asp  -->
+            <div id="tab">
+                <label>Office Hours</label>
+                <button class="tablinks" onclick="getOfficeHours(this,'Monday')">Monday</button>
+                <button class="tablinks" onclick="getOfficeHours(this,'Tuesday')">Tuesday</button>
+                <button class="tablinks" onclick="getOfficeHours(this,'Wednesday')">Wednesday</button>
+                <button class="tablinks" onclick="getOfficeHours(this,'Thursday')">Thursday</button>
+                <button class="tablinks" onclick="getOfficeHours(this,'Friday')">Friday</button>
+            </div>
+            <div class="tabcontent" id="officeHours"></div>
+        </div>
+    </div>
+</body>
+
+</html>

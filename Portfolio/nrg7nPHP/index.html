@@ -1,0 +1,75 @@
+<!--
+name: Nilin Reddrex
+pawprint: nrg7n
+date: 04/03/2020
+Challenge PHP S20 
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Form</title>
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <!-- external javascript -->
+        <script src="index.js"></script>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- external css -->
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body onload="showForm()">
+        <div class="container-fluid">
+            <a id="backLink" href="../nrg7nProjectsS20.html" class=themed>Back to Projects</a>
+        </div>
+
+        <div id="formWrapper" class="container-fluid">
+            <h1 id="title">PHP Functions</h1>
+            <hr>
+                <form id="functionSelection" class="formLayout">
+                    <label for="function">Function</label>
+                    <!-- Reference: onchange event: https://www.w3schools.com/jsref/event_onchange.asp -->
+                    <select id="function" class="form-control" name="function" onchange="showForm(this)">
+                        <option value="" selected disabled>Choose a function to run on the server.</option>
+                        <option value="greetingFunction">Greeting Function</option>
+                        <option value="factorialFunction">Factorial Function</option>
+                        <option value="stringFunction">Reverse String Function</option>
+                        <option value="sumSquaresFunction">Sum of Squares Function</option>
+                    </select>
+                </form>
+
+                <form action="greetingFunction.php" target="_blank" method="POST" id="greetingFunction" class="formField" onsubmit="submitForm(event)">
+                    <label for="fname">First name: </label>
+                    <input type="text" id="fname" class="field form-control" name="fname" required><br>
+                    <label for="lname">Last name: </label>
+                    <input type="text" id="lname" class="field form-control" name="lname" required><br>
+                    <input type="submit" class="btn btn-light" value="Submit">
+                    <input type="button" class="btn btn-light" onclick="clearForm(this.parentElement.id)" value="Clear form">
+                </form>
+
+                <form action="factorialFunction.php" target="_blank" method="GET" id="factorialFunction" class="formField" onsubmit="submitForm(event)">
+                    <label for="number">Number</label>
+                    <input type="text" id="number" class="field form-control" name="number" required><br>
+                    <input type="submit" class="btn btn-light" value="Submit">
+                    <input type="button" class="btn btn-light" onclick="clearForm(this.parentElement.id)" value="Clear form">
+                </form>
+
+                <form action="stringFunction.php" target="_blank" method="GET"  id="stringFunction" class="formField" onsubmit="submitForm(event)">
+                    <label for="string">String</label>
+                    <input type="text" id="string" class="field form-control" name="string" required><br>
+                    <input type="submit" class="btn btn-light" value="Submit">
+                    <input type="button" class="btn btn-light" onclick="clearForm(this.parentElement.id)" value="Clear form">
+                </form>
+
+                <form action="sumSquaresFunction.php" target="_blank" method="GET" id="sumSquaresFunction" class="formField" onsubmit="submitForm(event)">
+                    <label for="n1">n1</label>
+                    <input type="text" id="n1" class="field form-control" name="n1" required><br>
+                    <label for="n2">n2</label>
+                    <input type="text" id="n2" class="field form-control" name="n2" required><br>
+                    <input type="submit" class="btn btn-light" value="Submit">
+                    <input type="button" class="btn btn-light" onclick="clearForm(this.parentElement.id)" value="Clear form">
+                </form>
+                <hr>
+        </div>
+    </body>
+</html>

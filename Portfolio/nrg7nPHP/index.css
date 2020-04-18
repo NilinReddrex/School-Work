@@ -1,0 +1,30 @@
+#backLink {
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+#formWrapper {
+    margin: 20px auto;
+    border: 2px solid white;
+    padding: 10px;
+    width: 70%;
+    min-height: 60vh;
+    background-color: darkslategray;
+}
+#title {
+    text-align: center;
+    font-family: sans-serif;
+}
+#functionSelection{
+    text-align: center;
+}
+p{
+    font-weight: bold;
+    text-align: left;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+}

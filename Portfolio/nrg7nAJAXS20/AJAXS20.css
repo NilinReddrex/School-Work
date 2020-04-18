@@ -1,0 +1,112 @@
+/* style backlink */
+#backLink {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: x-large;
+  font-family: sans-serif;
+}
+
+/* style backlink */
+#backLink:hover {
+  color: black;
+}
+
+/* style main container */
+#mainContainer {
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  border: 2px solid black;
+}
+
+/* style dashboard container */
+#dashboardContainer {
+  height: inherit;
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-flow: wrap;
+  background-color: rgb(60, 99, 99);
+
+}
+
+/* style flexbox containers */
+.flexBoxContainer {
+  border: 1px solid darkslategray;
+  border-radius: 15px;
+  width: 400px;
+  height: 150px;
+  background-color: #ddd;
+  position: relative;
+  margin: 1% auto 1% auto;
+  overflow: hidden;
+
+}
+
+/* style the header */
+h1 {
+  text-align: center;
+  color: black;
+}
+
+/* style the text */
+.textContent {
+  text-align: center;
+  color: black;
+  font-size: medium;
+}
+/* Referebce for making/styling tabs vertical: 
+https://www.w3schools.com/howto/howto_js_vertical_tabs.asp
+ */
+/* Style the tab */
+#tab {
+  flex-flow: column;
+  border-right: 2px solid black;
+  background-color: #f1f1f1;
+  min-width: 30%;
+}
+
+/* Style the buttons that are used to open the tab content */
+#tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+#tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+#tab button.active {
+  background-color: darkslategray;
+  color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+  word-break: break-all;
+  color: black;
+  font-size: large;
+  text-decoration: none;
+}
+/* end of vertical tab reference */
+
+/* style the tabs container */
+#tabViewer {
+  display: flex;
+  border-top: 2px solid black;
+}
+/* style the body */
+body {
+  background-image: url(/images/Forest_Green.jpg);
+}

@@ -1,0 +1,14 @@
+C:\Users\Nilin\source\repos\School-Work\IT 4400\StudentManagement\StudentManagement\bin\Debug\TestWPF.exe.config
+C:\Users\Nilin\source\repos\School-Work\IT 4400\StudentManagement\StudentManagement\bin\Debug\TestWPF.exe
+C:\Users\Nilin\source\repos\School-Work\IT 4400\StudentManagement\StudentManagement\bin\Debug\TestWPF.pdb
+C:\Users\Nilin\source\repos\School-Work\IT 4400\StudentManagement\StudentManagement\obj\Debug\StudentManagement.csprojAssemblyReference.cache
+C:\Users\Nilin\source\repos\School-Work\IT 4400\StudentManagement\StudentManagement\obj\Debug\MainWindow.g.cs
+C:\Users\Nilin\source\repos\School-Work\IT 4400\StudentManagement\StudentManagement\obj\Debug\App.g.cs
+C:\Users\Nilin\source\repos\School-Work\IT 4400\StudentManagement\StudentManagement\obj\Debug\TestWPF_MarkupCompile.cache
+C:\Users\Nilin\source\repos\School-Work\IT 4400\StudentManagement\StudentManagement\obj\Debug\TestWPF_MarkupCompile.lref
+C:\Users\Nilin\source\repos\School-Work\IT 4400\StudentManagement\StudentManagement\obj\Debug\MainWindow.baml
+C:\Users\Nilin\source\repos\School-Work\IT 4400\StudentManagement\StudentManagement\obj\Debug\TestWPF.g.resources
+C:\Users\Nilin\source\repos\School-Work\IT 4400\StudentManagement\StudentManagement\obj\Debug\TestWPF.Properties.Resources.resources
+C:\Users\Nilin\source\repos\School-Work\IT 4400\StudentManagement\StudentManagement\obj\Debug\StudentManagement.csproj.GenerateResource.cache
+C:\Users\Nilin\source\repos\School-Work\IT 4400\StudentManagement\StudentManagement\obj\Debug\TestWPF.exe
+C:\Users\Nilin\source\repos\School-Work\IT 4400\StudentManagement\StudentManagement\obj\Debug\TestWPF.pdb

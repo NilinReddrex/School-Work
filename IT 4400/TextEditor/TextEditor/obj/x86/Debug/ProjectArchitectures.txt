@@ -1,0 +1,1 @@
+C:\Users\Nilin\source\repos\TextEditor\TextEditor\TextEditor.csproj;x86

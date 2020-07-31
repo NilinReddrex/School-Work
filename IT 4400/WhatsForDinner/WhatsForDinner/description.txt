@@ -1,0 +1,36 @@
+﻿When the user starts the application they will see a load screen that, when finished loading, will take the user to the cookbook view. 
+To enter in a recipe, the user must first click the "New Recipe" button.
+The user will then be able to update the:
+	* Recipe Name in the "Recipe Name" textbox.
+	* add recipe ingredients by clicking the "add ingredient" button.
+	* add recipe tools by clicking the "add tool" button.
+	* add recipe instructions by typing in the "directions" textbox.
+	
+The recipe components will be saved to the recipe simultaneously.
+
+The "new ingredient dialog" that displays, from clicking the "Add Ingredient" button, will ask the user for the name of the ingredient as well as the optional quanity and units for that ingredient.
+		* The ingredient name is added to both the "Recipe Ingredients" listbox and the "All Ingredients" listbox.
+		* The quantity and units are only displayed to the "Recipe Ingredients" listbox.
+
+If an ingredient for a recipe already exists in the "All ingredients" listbox, the user can simply double-click the item in the "All Ingredients" listbox and the "new ingredient dialog",
+for that ingredient, will display asking for the quantity and units for the selected ingredient, and will be added to the "Recipe Ingredients" listbox, if a recipe is selected.
+
+The "new tool dialog" that displays, from clicking the "Add Tools" button, will ask the user for the name of the tool.
+	* The tool name will be added to the "All Cooking Tools" listbox and the "Recipe Tools" listbox.
+
+If a tool for a recipe already exists in the "All Cooking Tools" listbox, the user can simply double-click the item in the "All Cooking Tools" listbox and the tool will be added to the currently selected recipe
+"Recipe Tools" listbox.
+
+The double-click functionality on the "All Ingredients" and "All Tools" listboxes will not add the selected component unless a recipe in the "Recipes List" is selected.
+
+A recipe name,  recipe ingredients,  recipe tools, and directions cannot be added or deleted unless a recipe is selected from the "Recipes List".
+The user can add or delete ingredients and tools from the "all ingredients" listbox and "All Cooking Tools" Listbox without having a recipe selected.
+Recipe Components are deleted by selecting the component in the corresponding listbox and clicking the button with the trash can on it next to that listbox.
+
+An entire recipe is deleted by selecting the recipe in the "Recipe List" and then clciking the "Delete Recipe" button.
+
+Recipes in the "Recipes List" can be filtered down based on ingredients typed into the "Filter by Ingredient" textbox (delimitered by commas).
+If an ingredient does not correspond with a recipe's ingredients, then the listbox will be empty. 
+If at least one or more ingredients typed into the "Filter by Ingredient" textbox corresponds to the ingredients in a recipe, then those recipes will appear in the "Recipes List" listbox.
+
+The cookbook is saved to disk when the application is closed and reloaded when the application is opened.

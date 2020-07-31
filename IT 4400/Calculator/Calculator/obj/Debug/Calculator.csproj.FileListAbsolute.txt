@@ -1,0 +1,14 @@
+C:\Users\Nilin\source\repos\School-Work\IT 4400\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\Nilin\source\repos\School-Work\IT 4400\Calculator\Calculator\obj\Debug\MainWindow.g.cs
+C:\Users\Nilin\source\repos\School-Work\IT 4400\Calculator\Calculator\obj\Debug\App.g.cs
+C:\Users\Nilin\source\repos\School-Work\IT 4400\Calculator\Calculator\obj\Debug\Calculator_MarkupCompile.cache
+C:\Users\Nilin\source\repos\School-Work\IT 4400\Calculator\Calculator\obj\Debug\Calculator_MarkupCompile.lref
+C:\Users\Nilin\source\repos\School-Work\IT 4400\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\Nilin\source\repos\School-Work\IT 4400\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\Nilin\source\repos\School-Work\IT 4400\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Nilin\source\repos\School-Work\IT 4400\Calculator\Calculator\obj\Debug\MainWindow.baml
+C:\Users\Nilin\source\repos\School-Work\IT 4400\Calculator\Calculator\obj\Debug\Calculator.g.resources
+C:\Users\Nilin\source\repos\School-Work\IT 4400\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\Nilin\source\repos\School-Work\IT 4400\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\Nilin\source\repos\School-Work\IT 4400\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\Nilin\source\repos\School-Work\IT 4400\Calculator\Calculator\obj\Debug\Calculator.pdb

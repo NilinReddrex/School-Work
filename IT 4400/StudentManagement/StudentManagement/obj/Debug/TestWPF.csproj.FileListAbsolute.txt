@@ -1,0 +1,42 @@
+C:\Users\LSY\Desktop\TA\TestWPF\TestWPF\bin\Debug\TestWPF.exe.config
+C:\Users\LSY\Desktop\TA\TestWPF\TestWPF\bin\Debug\TestWPF.exe
+C:\Users\LSY\Desktop\TA\TestWPF\TestWPF\bin\Debug\TestWPF.pdb
+C:\Users\LSY\Desktop\TA\TestWPF\TestWPF\obj\Debug\TestWPF.csprojResolveAssemblyReference.cache
+C:\Users\LSY\Desktop\TA\TestWPF\TestWPF\obj\Debug\MainWindow.g.cs
+C:\Users\LSY\Desktop\TA\TestWPF\TestWPF\obj\Debug\App.g.cs
+C:\Users\LSY\Desktop\TA\TestWPF\TestWPF\obj\Debug\TestWPF_MarkupCompile.cache
+C:\Users\LSY\Desktop\TA\TestWPF\TestWPF\obj\Debug\TestWPF_MarkupCompile.lref
+C:\Users\LSY\Desktop\TA\TestWPF\TestWPF\obj\Debug\MainWindow.baml
+C:\Users\LSY\Desktop\TA\TestWPF\TestWPF\obj\Debug\TestWPF.g.resources
+C:\Users\LSY\Desktop\TA\TestWPF\TestWPF\obj\Debug\TestWPF.Properties.Resources.resources
+C:\Users\LSY\Desktop\TA\TestWPF\TestWPF\obj\Debug\TestWPF.csproj.GenerateResource.Cache
+C:\Users\LSY\Desktop\TA\TestWPF\TestWPF\obj\Debug\TestWPF.exe
+C:\Users\LSY\Desktop\TA\TestWPF\TestWPF\obj\Debug\TestWPF.pdb
+D:\FangWang\Courses\C#\Sum17\Week5\HW\Assignement 05\TestWPF\TestWPF\bin\Debug\TestWPF.exe.config
+D:\FangWang\Courses\C#\Sum17\Week5\HW\Assignement 05\TestWPF\TestWPF\obj\Debug\TestWPF.exe
+D:\FangWang\Courses\C#\Sum17\Week5\HW\Assignement 05\TestWPF\TestWPF\obj\Debug\TestWPF.pdb
+D:\FangWang\Courses\C#\Sum17\Week5\HW\Assignement 05\TestWPF\TestWPF\bin\Debug\TestWPF.exe
+D:\FangWang\Courses\C#\Sum17\Week5\HW\Assignement 05\TestWPF\TestWPF\bin\Debug\TestWPF.pdb
+D:\FangWang\Courses\C#\Sum17\Week5\HW\Assignement 05\TestWPF\TestWPF\obj\Debug\TestWPF.csprojResolveAssemblyReference.cache
+D:\FangWang\Courses\C#\Sum17\Week5\HW\Assignement 05\TestWPF\TestWPF\obj\Debug\MainWindow.g.cs
+D:\FangWang\Courses\C#\Sum17\Week5\HW\Assignement 05\TestWPF\TestWPF\obj\Debug\App.g.cs
+D:\FangWang\Courses\C#\Sum17\Week5\HW\Assignement 05\TestWPF\TestWPF\obj\Debug\TestWPF_MarkupCompile.cache
+D:\FangWang\Courses\C#\Sum17\Week5\HW\Assignement 05\TestWPF\TestWPF\obj\Debug\TestWPF_MarkupCompile.lref
+D:\FangWang\Courses\C#\Sum17\Week5\HW\Assignement 05\TestWPF\TestWPF\obj\Debug\MainWindow.baml
+D:\FangWang\Courses\C#\Sum17\Week5\HW\Assignement 05\TestWPF\TestWPF\obj\Debug\TestWPF.g.resources
+D:\FangWang\Courses\C#\Sum17\Week5\HW\Assignement 05\TestWPF\TestWPF\obj\Debug\TestWPF.Properties.Resources.resources
+D:\FangWang\Courses\C#\Sum17\Week5\HW\Assignement 05\TestWPF\TestWPF\obj\Debug\TestWPF.csproj.GenerateResource.Cache
+C:\Users\Nilin\Downloads\StudentsManagement\Assignement 05\TestWPF\TestWPF\bin\Debug\TestWPF.exe.config
+C:\Users\Nilin\Downloads\StudentsManagement\Assignement 05\TestWPF\TestWPF\bin\Debug\TestWPF.exe
+C:\Users\Nilin\Downloads\StudentsManagement\Assignement 05\TestWPF\TestWPF\bin\Debug\TestWPF.pdb
+C:\Users\Nilin\Downloads\StudentsManagement\Assignement 05\TestWPF\TestWPF\obj\Debug\TestWPF.csprojAssemblyReference.cache
+C:\Users\Nilin\Downloads\StudentsManagement\Assignement 05\TestWPF\TestWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Nilin\Downloads\StudentsManagement\Assignement 05\TestWPF\TestWPF\obj\Debug\App.g.cs
+C:\Users\Nilin\Downloads\StudentsManagement\Assignement 05\TestWPF\TestWPF\obj\Debug\TestWPF_MarkupCompile.cache
+C:\Users\Nilin\Downloads\StudentsManagement\Assignement 05\TestWPF\TestWPF\obj\Debug\TestWPF_MarkupCompile.lref
+C:\Users\Nilin\Downloads\StudentsManagement\Assignement 05\TestWPF\TestWPF\obj\Debug\MainWindow.baml
+C:\Users\Nilin\Downloads\StudentsManagement\Assignement 05\TestWPF\TestWPF\obj\Debug\TestWPF.g.resources
+C:\Users\Nilin\Downloads\StudentsManagement\Assignement 05\TestWPF\TestWPF\obj\Debug\TestWPF.Properties.Resources.resources
+C:\Users\Nilin\Downloads\StudentsManagement\Assignement 05\TestWPF\TestWPF\obj\Debug\TestWPF.csproj.GenerateResource.cache
+C:\Users\Nilin\Downloads\StudentsManagement\Assignement 05\TestWPF\TestWPF\obj\Debug\TestWPF.exe
+C:\Users\Nilin\Downloads\StudentsManagement\Assignement 05\TestWPF\TestWPF\obj\Debug\TestWPF.pdb
